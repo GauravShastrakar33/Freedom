@@ -36,4 +36,12 @@ case 2. external will have more priority =>
 
 always use external css
 
+------------------------------------------------------------------------------------------------------------------------
+
+box model
+----------
+
+    border => thickness, style, color
+    padding => space inside 
+    margin => space outside
 
