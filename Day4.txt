@@ -205,3 +205,14 @@ body {
 }
 
 Removes that unwanted white gap around the page.
+
+------------------------------------------------------------------------------------------------------------------------
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+
+box-sizing : border-box;
+everything is inside the box, so that i don't have to write it manually inside everywhere.
