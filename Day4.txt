@@ -24,14 +24,14 @@ case 1. internal will have more priority =>
 ------------------------------------------------------------------------------------------------------------------------
 
 case 2. external will have more priority =>
-    <link rel="stylesheet" href="style.css">
+    
 <style>
     h1{
         color: blueviolet;
         text-align: center;
     }
 </style>
-
+<link rel="stylesheet" href="style.css">
 ------------------------------------------------------------------------------------------------------------------------
 
 always use external css
