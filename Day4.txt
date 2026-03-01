@@ -1,1 +1,39 @@
 CSS 
+----
+
+1. inline css => highest priority
+
+<h1 style = "color: red;">Welcome to the css session</h1>
+
+2. internal css => same p levels
+3. external css => same p levels
+
+priority depends on order =>
+
+------------------------------------------------------------------------------------------------------------------------
+case 1. internal will have more priority =>
+
+<link rel="stylesheet" href="style.css">
+<style>
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }
+</style>
+
+------------------------------------------------------------------------------------------------------------------------
+
+case 2. external will have more priority =>
+    <link rel="stylesheet" href="style.css">
+<style>
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }
+</style>
+
+------------------------------------------------------------------------------------------------------------------------
+
+always use external css
+
+
