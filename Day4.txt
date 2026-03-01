@@ -45,3 +45,37 @@ box model
     padding => space inside 
     margin => space outside
 
+
+🔹 1. values Rule
+---------------
+
+margin: 10px 5px 20px 8px;
+
+Order is:
+Top  Right  Bottom  Left
+Clockwise ⏰
+
+
+🔹 2. Values Rule
+------------------
+padding: 10px 5px;
+
+Means:
+Top & Bottom = 10px
+Left & Right = 5px
+
+
+🔹 3 Values Rule
+------------------
+padding: 10px 5px 20px;
+
+Means:
+Top = 10px
+Left & Right = 5px
+Bottom = 20px
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+
