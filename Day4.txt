@@ -198,4 +198,10 @@ So yes —
 
 👉 Block elements naturally align to the left
 
+------------------------------------------------------------------------------------------------------------------------
 
+body {
+    margin: 0;
+}
+
+Removes that unwanted white gap around the page.
