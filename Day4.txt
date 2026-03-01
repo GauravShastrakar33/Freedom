@@ -1,4 +1,4 @@
-CSS 
+CSS - refere to folder intro to CSS.
 ----
 
 1. inline css => highest priority
@@ -216,3 +216,5 @@ body{
 
 box-sizing : border-box;
 everything is inside the box, so that i don't have to write it manually inside everywhere.
+
+This is the first thing to write and we will follow it.
