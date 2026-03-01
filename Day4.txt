@@ -76,6 +76,126 @@ Bottom = 20px
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Practical learning 1
+----------------------
 
+
+  <div class="login center">
+        <img src="Google-5.svg" height="60" alt="">
+        <h2>Welcome back!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <input type="email" placeholder="Enter the username" class="input">
+        <input type="password" placeholder="Enter the password" class="input">
+        <button class="login-btn">Login Now</button>
+    </div>
+
+this was giving a login page with everything attached to center.
+
+
+style.css
+----------
+
+.input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid rgb(175, 175, 175);
+    font-size: 16px;
+}
+
+.login-btn{
+    width: 50%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+but i wanted login button on left rest everything on right
+
+so i made this change 
+
+.login-btn {
+    display: block;      /* important */
+    width: 50%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    margin-left: 0;      /* stick to left */
+}
+
+
+🔍 What Was Happening Before?
+-------------------------------
+
+I had:
+.center {
+    text-align: center;
+}
+
+And button was inside:
+<div class="login center">
+
+So the parent had:
+text-align: center;
+
+🧠 Important Concept
+---------------------
+
+text-align affects:
+inline elements
+inline-block elements
+
+By default, a <button> behaves like:
+
+display: inline-block;
+So it was getting centered.
+
+
+🔥 What Changed?
+-----------------
+
+I added:
+display: block;
+
+Now the button becomes a block element.
+
+🚀 Why That Fixes It
+---------------------
+
+text-align: center; does NOT control block elements.
+It only controls inline content inside a block.
+
+🧠 Golden Rule To Remember
+---------------------------
+
+If something is getting centered by text-align,
+convert it to display: block.
+
+🔹 Block Elements Default Behavior
+-----------------------------------
+
+By default:
+display: block;
+
+Block elements:
+1.Take full available width (unless you set width)
+2.Start from the left side
+3.Stack vertically
+
+So yes —
+
+👉 Block elements naturally align to the left
 
 
